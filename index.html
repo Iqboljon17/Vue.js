@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="./tailwind.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+          <h2 class="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2>
+        </div>
+        <product-card></product-card>
+        <product-card></product-card>
+    </div> 
+
+    <script src="./vue.global.js"></script>
+    <script src="./app.js"></script>
+    <script src="./components/productsCard.js"></script>
+    <script>
+        app.mount("app")
+    </script>
+</body>
+</html>
